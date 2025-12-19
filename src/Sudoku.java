@@ -18,7 +18,6 @@ public class Sudoku {
      */
 
     JFrame frame = new JFrame("Sudoku");
-    // test
 
     //Labels
     JLabel titleLabel = new JLabel();
