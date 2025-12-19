@@ -27,7 +27,6 @@ public class Sudoku {
     //Panels
     JPanel titlePanel = new JPanel();
     JPanel mcPanel = new JPanel();
-
     // Create board (Must have 9 entries, 9 digits long for a 9x9 board
     // Note for future me: use _ or 0 for empty tiles or something
     int[][] boardSol = RandomSudokuBoardCreator.generateBoard();
