@@ -2,10 +2,6 @@ import java.util.Random;
 
 public class RandomSudokuBoardCreator {
 
-    // Make recursive or backtracking fill method
-    // Keep constraint trackers (used-in-row 9x10 booleans, used-in-col,used-in-grid)
-    // Placing a number will be just 3 boolean checks
-    // mark/remark if valid or not
     public static int[][] generateBoard() {
         int[][] board = new int[9][9];
         fillBoard(board);
